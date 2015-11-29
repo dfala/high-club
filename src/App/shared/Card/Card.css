@@ -23,6 +23,7 @@
     /*border: 1px solid var(--clr-border-darker);
     border-bottom-color: #999999;*/
     opacity: 0.9;
+    z-index: -1;
   }
 
 .Card img {

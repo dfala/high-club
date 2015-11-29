@@ -13,6 +13,7 @@
   width: 100%;
   position: fixed;
   height: var(--header-height);
+  z-index: 1;
 }
 
 .left, .right {
