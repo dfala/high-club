@@ -15,7 +15,15 @@
   border-bottom-color: var(--clr-border-darker);
   display: inline-table;
   margin: 20px 10px;
+  cursor: pointer;
+  transition: opacity 0.3s;
 }
+
+  .Card:hover {
+    /*border: 1px solid var(--clr-border-darker);
+    border-bottom-color: #999999;*/
+    opacity: 0.9;
+  }
 
 .Card img {
   max-width: 100%;
