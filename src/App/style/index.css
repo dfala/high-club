@@ -1,0 +1,16 @@
+@import "settings.global";
+@import "settings.colors";
+@import "settings.typography";
+
+@import "generic.reset";
+@import "generic.normalize";
+@import "generic.box-sizing";
+
+@import "base.typography";
+
+html,
+body,
+#app {
+  height: 100%;
+  background-color: var(--clr-light-grey);
+}
