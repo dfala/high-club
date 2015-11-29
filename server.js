@@ -5,11 +5,13 @@ var express     = require('express'),
     session     = require('express-session'),
     passport    = require('passport'),
     CronJob     = require('cron').CronJob,
+    ejs         = require('ejs'),
     path        = require('path'),
     keys        = require('./config/keys.js');
 
 // App definition
 var app = express();
+app.set('view engine', 'ejs');
 
 require('./config/passport')(passport);
 

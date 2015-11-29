@@ -17,6 +17,7 @@
     "body-parser": "^1.13.2",
     "cors": "^2.7.1",
     "cron": "^1.0.9",
+    "ejs": "^2.3.4",
     "express": "^4.13.1",
     "express-session": "^1.11.3",
     "mandrill-api": "^1.0.45",
