@@ -1,0 +1,30 @@
+@import 'settings.colors';
+
+:root {
+  --card-height: 288px;
+  --card-description-height: calc(var(--card-height) - 238);
+  --card-radius: 3px;
+}
+
+.Card {
+  background-color: #fff;
+  border-radius: var(--card-radius);
+  width: 300px;
+  min-height: var(--card-height);
+  border: 1px solid var(--clr-border-grey);
+  border-bottom-color: var(--clr-border-darker);
+  display: inline-table;
+  margin: 20px 10px;
+}
+
+.Card img {
+  max-width: 100%;
+  border-top-left-radius: var(--card-radius);
+  border-top-right-radius: var(--card-radius);
+}
+
+.Card .description {
+  min-height: var(--card-description-height);
+  line-height: var(--card-description-height);
+  padding: 0 20px
+}
