@@ -7,7 +7,7 @@ export default class Card extends React.Component {
     return (
       <div className={s.Card}>
         <img src='https://img1.etsystatic.com/100/0/9268997/il_340x270.833134431_rifo.jpg' />
-        <div className={s.description}><a>Letter Belt</a></div>
+        <div className={s.description}><a>Leather Belt</a></div>
       </div>
     )
   }
