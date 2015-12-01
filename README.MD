@@ -1,4 +1,4 @@
-SETUP:
+###Setup
 * react 0.14.0
 * react-rotuer 1.0
 * redux-router
@@ -9,5 +9,5 @@ SETUP:
 
 
 ###Getting Started
-* `$npm install`
-* `$npm start`
+`$npm install`
+`$npm start`
