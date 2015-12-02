@@ -23,11 +23,16 @@
 .left, .right, .center {
   float: left;
   height: 100%;
+  line-height: var(--header-height);
+}
+
+.right {
+  text-align: right;
+  padding: 0 30px;
 }
 
 .center {
   width: 60%;
   text-align: center;
-  line-height: var(--header-height);
   font-weight: 600;
 }
