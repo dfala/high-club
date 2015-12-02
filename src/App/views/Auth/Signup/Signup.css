@@ -1,4 +1,13 @@
 .container {
+  width:90%;
+  margin:auto;
+  height:70vh;
   background-color: #fff;
   padding: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width:75%;
+  margin:auto;
 }
