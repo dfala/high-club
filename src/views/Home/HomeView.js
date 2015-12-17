@@ -1,7 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { actions as counterActions } from '../../redux/modules/counter'
-import styles from './HomeView.scss'
 import TopNav from '../../components/Top-Nav/Top-Nav'
 
 // We define mapStateToProps where we'd normally use
