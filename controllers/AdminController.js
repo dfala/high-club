@@ -1,5 +1,5 @@
 var admin = module.exports = {},
-    Deal = require('../models/DealModel');
+    Deal = require('./DealModel');
 
 admin.approveDeal = function (req, res) {
   var itemId = req.params.itemId;

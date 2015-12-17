@@ -7,13 +7,13 @@ var express     = require('express'),
     CronJob     = require('cron').CronJob,
     ejs         = require('ejs'),
     path        = require('path'),
-    keys        = require('./config/keys.js');
+    keys        = require('./server/config/keys.js');
 
 // App definition
 var app = express();
 app.set('view engine', 'ejs');
 
-require('./config/passport')(passport);
+require('./server/config/passport')(passport);
 
 // Middleware
 app.use(session({
@@ -34,7 +34,7 @@ app.use(bodyParser.urlencoded({limit: '50mb', extended: true}));
 app.use(express.static(path.join(__dirname, 'app')));
 // app.use(express.static(__dirname + '/'));
 
-var Routes = require('./config/routes.js');
+var Routes = require('./server/config/routes.js');
 
 ////////////////////////////////////
 // ROUTES

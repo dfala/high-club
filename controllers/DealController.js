@@ -1,5 +1,5 @@
 var deal = module.exports = {},
-    Deal = require('../models/DealModel'),
+    Deal = require('./DealModel'),
     Amazon = require('./Amazon.js');
 
 

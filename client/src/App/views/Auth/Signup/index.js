@@ -3,7 +3,7 @@ import { createAccount } from 'api/auth'
 import CSSModules from 'react-css-modules'
 import s from './Signup.css'
 
-export default class Signup extends React.Component {
+class Signup extends Component {
   constructor(props) {
     super(props);
     this.state = {

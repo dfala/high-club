@@ -1,5 +1,5 @@
 var payment = module.exports = {},
-    Tokens = require('../config/keys.js'),
+    Tokens = require('./keys.js'),
     stripe = require("stripe")(Tokens.stripeSecretKey);
 
 payment.createCustomer = function (req, res) {

@@ -1,5 +1,5 @@
 var cart = module.exports = {},
-    User = require('../models/UserModel');
+    User = require('./UserModel');
 
 // TODO: Create a user model (and combine seller and buyer schema)
 cart.add = function (req, res) {

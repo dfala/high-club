@@ -1,6 +1,6 @@
 var routes = module.exports = {},
-    Deal = require('../models/DealModel.js'),
-    User = require('../models/UserModel.js');
+    Deal = require('./DealModel.js'),
+    User = require('./UserModel.js');
 
 ////////////////////////////////////
 // MIDDLEWARE

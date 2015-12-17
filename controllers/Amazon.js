@@ -1,6 +1,6 @@
-var Tokens = require('../config/keys.js'),
+var Tokens = require('./keys.js'),
     AWS    = require('aws-sdk'),
-    Deal   = require('../models/DealModel.js');
+    Deal   = require('./DealModel.js');
 
 // Hard amazon aws config
 AWS.config.update({
